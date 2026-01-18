@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Cursed Seas",
+    "image": "img/juegos/cursed.jpg",
+    "genres": ["Terror", "Supervivencia"],
+    "cutie": "https://cutie.io/ENLACE1"
+  },
+  {
+    "title": "Deep Anchor",
+    "image": "img/juegos/anchor.jpg",
+    "genres": ["Aventura", "Exploración"],
+    "cutie": "https://cutie.io/ENLACE2"
+  }
+]

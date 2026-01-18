@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Sugerencias – Náutica</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>⚓ Náutica</h1>
+  <nav>
+    <a href="index.html">Inicio</a>
+  </nav>
+</header>
+
+<section class="suggest">
+  <h2>💬 Foro de sugerencias</h2>
+
+  <button class="button-download" id="loginBtn">
+    🔑 Iniciar sesión
+  </button>
+
+  <div id="user-info"></div>
+
+  <textarea id="mensaje" placeholder="Escribe tu sugerencia..."></textarea>
+  <button class="button-download" id="enviar">
+    Publicar
+  </button>
+</section>
+
+<section id="foro"></section>
+
+<script type="module" src="firebase.js"></script>
+<script type="module" src="js/auth.js"></script>
+<script type="module" src="js/forum.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  color: white;
+  background: url("https://cdna.artstation.com/p/assets/images/images/054/788/478/original/jonathan-dulcahn-dodd-pirate-and-sub-anim-final.gif?1665393093")
+  no-repeat center center fixed;
+  background-size: cover;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  z-index: -1;
+}
+
+header {
+  background: rgba(2,47,76,0.9);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.game-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.game-card {
+  background: rgba(18,59,87,0.9);
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.genres {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.genre {
+  border: 1px solid #f2c96d;
+  padding: 3px 6px;
+  font-size: 12px;
+}
+
+.button-download {
+  background: #f2c96d;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.suggest, #foro {
+  max-width: 600px;
+  margin: 20px auto;
+  background: rgba(0,0,0,0.4);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 80px;
+  margin-top: 10px;
+}
+
+.post {
+  margin-bottom: 15px;
+}
+
+.admin-badge {
+  background: gold;
+  color: black;
+  padding: 3px 6px;
+  font-size: 12px;
+  margin-left: 5px;
+}

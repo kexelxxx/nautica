@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Náutica Games</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>⚓ Náutica</h1>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="sugerencias.html">Sugerencias</a>
+  </nav>
+</header>
+
+<section id="search-bar">
+  <input type="text" id="searchInput" placeholder="Buscar juego...">
+
+  <div id="filters">
+    <label><input type="checkbox" value="Acción"> Acción</label>
+    <label><input type="checkbox" value="Aventura"> Aventura</label>
+    <label><input type="checkbox" value="Terror"> Terror</label>
+    <label><input type="checkbox" value="Supervivencia"> Supervivencia</label>
+    <label><input type="checkbox" value="Simulación"> Simulación</label>
+    <label><input type="checkbox" value="RPG"> RPG</label>
+    <label><input type="checkbox" value="Exploración"> Exploración</label>
+    <label><input type="checkbox" value="Multiplayer"> Multiplayer</label>
+    <label><input type="checkbox" value="Sandbox"> Sandbox</label>
+  </div>
+</section>
+
+<h2>🎮 Catálogo</h2>
+<div class="game-list" id="games"></div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
